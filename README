@@ -26,8 +26,8 @@ How to set up:
     • Open up IntelliJ and select this downloaded project from the folder you saved it in.
     • On IntelliJ Setup on the run configurations:
          • Select server Smart Tomcat
-         • Setup Deployment Directory to {'your path'}/project1/src/main/webapp
-         • set up context path to: /project1
+         • Set up Deployment Directory to {'your path'}/project1/src/main/webapp
+         • Set up context path to: /project1
 
 
 Get started using it:
