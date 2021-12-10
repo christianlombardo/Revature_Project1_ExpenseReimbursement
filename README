@@ -45,13 +45,13 @@ Usage of the project
         username: empmale
         password: 12345
 
-        submit and view reimbursemnets following the links on the page and navbar.
+        submit and view reimbursements following the links on the page and navbar.
 
     • Login in as employeefemale:
             username: empfemale
             password: 12345
 
-            submit and view reimbursemnets following the links on the page and navbar.
+            submit and view reimbursements following the links on the page and navbar.
 
     • In your browser go to http://localhost:8081/project1/EmployeeLogin.html
     • Select the "Financial Managers" link.
@@ -59,7 +59,7 @@ Usage of the project
             username: admin
             password: 12345
 
-      view all employee(s) reimbursemnets following the links on the page and navbar.
+      view all employee(s) reimbursements following the links on the page and navbar.
 
 
 Contributors:
