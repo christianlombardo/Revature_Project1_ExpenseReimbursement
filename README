@@ -1,19 +1,70 @@
-
 Title of the Project: Expense Reimbursement System (ERS)
 
 
 Explanation and Overview of the project:
-
     Manages the process of reimbursing employees for expenses incurred while on company time.
 
 
 List of features implemented:
-    ⚫	All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests.
-    ⚫	Finance managers can log in and view all reimbursement requests and past history for all employees in the company.
-    ⚫	Finance managers are authorized to approve and deny requests for expense reimbursement.
+    • All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests.
+    • Finance managers can log in and view all reimbursement requests and past history for all employees in the company.
+    • Finance managers are authorized to approve and deny requests for expense reimbursement.
+
 
 Technologies used
+    • Maven
+    • Servlets
+    • HTML
+    • CSS
+    • Bootstrap
+    • Hibernate (MySQL Database)
+    • Log4J(6) (optional)
 
 
+How to set up:
+    • Download full repo on: https://github.com/christianlombardo/Revature_Project1_ExpenseReimbursement
+    • Open up IntelliJ and select this downloaded project from the folder you saved it in.
+    • On IntelliJ Setup on the run configurations:
+         • Select server Smart Tomcat
+         • Setup Deployment Directory to {'your path'}/project1/src/main/webapp
+         • set up context path to: /project1
 
-How to set up / get started using it, Usage of the project, Contributors, and License information.
+
+Get started using it:
+    • Open up IntelliJ.
+    • Run the project with the configuration setup above.
+    • In the database create a user for Employees and Financial Manager:
+        INSERT INTO Employee (id, gender, name, password, username) VALUES  (1, "male", "employeemale", "12345", "empmale");
+        INSERT INTO Employee (id, gender, name, password, username) VALUES  (1, "female", "employeefemale", "12345", "empfemale");
+        INSERT INTO FinancialManager (id, name, password, username) VALUES  (1, "admin", "12345", "admin");
+
+
+Usage of the project
+    • In your browser go to http://localhost:8081/project1/EmployeeLogin.html
+    • Login in as employeemale:
+        username: empmale
+        password: 12345
+
+        submit and view reimbursemnets following the links on the page and navbar.
+
+    • Login in as employeefemale:
+            username: empfemale
+            password: 12345
+
+            submit and view reimbursemnets following the links on the page and navbar.
+
+    • In your browser go to http://localhost:8081/project1/EmployeeLogin.html
+    • Select the "Financial Managers" link.
+    • Login in as financial manager:
+            username: admin
+            password: 12345
+
+      view all employee(s) reimbursemnets following the links on the page and navbar.
+
+
+Contributors:
+    Christian Lombardo
+    Joseph Malak
+
+
+License information: Public domain software.
