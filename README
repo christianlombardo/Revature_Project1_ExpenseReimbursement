@@ -18,7 +18,7 @@ Technologies used
     • CSS
     • Bootstrap
     • Hibernate (MySQL Database)
-    • Log4J(6) (optional)
+    • Log4J(6)
 
 
 How to set up:
@@ -55,7 +55,7 @@ Usage of the project
 
     • In your browser go to http://localhost:8081/project1/EmployeeLogin.html
     • Select the "Financial Managers" link.
-    • Login in as financial manager:
+    • Login in as Financial Manager:
             username: admin
             password: 12345
 
